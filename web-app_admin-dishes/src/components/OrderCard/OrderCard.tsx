@@ -21,7 +21,7 @@ const OrderCard = ({ order, deliveryPrice, comleteClick, dishes }: Props) => {
 
   return (
     <li className="OrderCard">
-      <ul>
+      <ul >
         {orderedDishes.map((item) => (
           <li key={item.id} className="dish-info">
             <p>
