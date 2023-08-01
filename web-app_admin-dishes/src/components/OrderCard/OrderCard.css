@@ -1,0 +1,25 @@
+.dish-info {
+	display: flex;
+	gap: 10px;
+	border-bottom: 2px dotted #d334815f;
+	font-size: 18px;
+	justify-content: space-between;
+}
+
+.OrderCard {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-items: center;
+	background: #f3b9b97d;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.order-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	font-size: 24px;
+}
