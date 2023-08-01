@@ -10,6 +10,7 @@ export const fetchDishes = createAsyncThunk("fetch/dishes", async () => {
     id: key,
   }));
 
-  return dishes;
+  return dishes; 
+	
 });
 
