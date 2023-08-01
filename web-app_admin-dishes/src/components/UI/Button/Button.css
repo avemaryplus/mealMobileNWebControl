@@ -1,0 +1,51 @@
+.Button {
+	background-color: transparent;
+	border: none;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.Success {
+	color: #d4f3aa;
+	background: green;
+}
+
+.Danger {
+	color: #f8a8a4;
+	background: rgb(130, 23, 23);
+}
+
+.Success:hover {
+	color: #4a7f00;
+	background: rgb(96, 209, 96);
+	box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.542);
+}
+
+.Danger {
+	color: #f8a8a4;
+	background: rgb(130, 23, 23);
+}
+
+.Danger:hover {
+	color: #6d0b06;
+	background: rgb(232, 74, 74);
+	box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.542);
+}
+
+.Add {
+	color: #f4c0ee;
+	background: rgb(105, 7, 67);
+}
+
+.Add:hover {
+	color: #560c4e;
+	background: rgb(227, 170, 205);
+	box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.542);
+}
